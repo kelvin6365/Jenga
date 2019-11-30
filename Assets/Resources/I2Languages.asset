@@ -21,70 +21,153 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - "\u6700\u9AD8\u7EAA\u5F55"
       - BEST
       - "\u6700\u9AD8\u7D00\u9304"
+      - "\u6700\u9AD8\u7EAA\u5F55"
       Flags: 000000
       Languages_Touch: []
     - Term: NEW BEST
       TermType: 0
       Description: 
       Languages:
-      - "\u65B0\u7EAA\u5F55"
       - NEW BEST
       - "\u65B0\u7D00\u9304"
+      - "\u65B0\u7EAA\u5F55"
       Flags: 000000
       Languages_Touch: []
     - Term: SELECT CHARACTER
       TermType: 0
       Description: 
       Languages:
-      - "\u9009\u62E9\u89D2\u8272"
       - SELECT CHARACTER
       - "\u9078\u64C7\u89D2\u8272"
+      - "\u9009\u62E9\u89D2\u8272"
       Flags: 000000
       Languages_Touch: []
     - Term: NEW BEST
       TermType: 0
       Description: 
       Languages:
-      - "\u65B0\u7EAA\u5F55"
       - NEW BEST
-      - "\u65B0\u7D00\u9304"
+      - "<size=35>\u65B0\u7D00\u9304</size>"
+      - "<size=35>\u65B0\u7EAA\u5F55</size>"
       Flags: 000000
       Languages_Touch: []
     - Term: WATCH FOR COINS
       TermType: 0
       Description: 
       Languages:
-      - "\u89C2\u770B\u9886\u53D6\u91D1\u5E01"
       - WATCH FOR COINS
       - "\u89C0\u770B\u9818\u53D6\u91D1\u5E63"
+      - "\u89C2\u770B\u9886\u53D6\u91D1\u5E01"
       Flags: 000000
       Languages_Touch: []
     - Term: GRAB YOUR REWARD!
       TermType: 0
       Description: 
       Languages:
-      - "\u83B7\u53D6\u60A8\u7684\u5956\u52B1"
       - GRAB YOUR REWARD!
       - "\u7372\u53D6\u60A8\u7684\u734E\u52F5"
+      - "\u83B7\u53D6\u60A8\u7684\u5956\u52B1"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: Fonts
+      TermType: 1
+      Description: 
+      Languages:
+      - Orbitron Bold
+      - Sharp Super Bold Figure(GBK) Chinese Font-Simplified Chinese Fonts
+      - Sharp Super Bold Figure(GBK) Chinese Font-Simplified Chinese Fonts
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GENERATING GIF...
+      TermType: 0
+      Description: 
+      Languages:
+      - GENERATING GIF...
+      - "\u6B63\u5728\u751F\u6210GIF ..."
+      - "\u6B63\u5728\u751F\u6210GIF ..."
+      Flags: 000000
+      Languages_Touch: []
+    - Term: CONGRATS! YOU HAVE EARNED
+      TermType: 0
+      Description: 
+      Languages:
+      - 'CONGRATS!
+
+        YOU HAVE EARNED'
+      - "\u606D\u559C\uFF01\r\n\u60A8\u5DF2\u8CFA\u5230"
+      - "\u606D\u559C\uFF01\r\n\u60A8\u5DF2\u8D5A\u5230"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: SOUND
+      TermType: 0
+      Description: 
+      Languages:
+      - SOUND
+      - "\u8072\u97F3"
+      - "\u58F0\u97F3"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: MUSIC
+      TermType: 0
+      Description: 
+      Languages:
+      - MUSIC
+      - "\u97F3\u6A02"
+      - "\u97F3\u4E50"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: RATE US
+      TermType: 0
+      Description: 
+      Languages:
+      - RATE US
+      - "\u8A55\u50F9\u6211\u5011"
+      - "\u8BC4\u4EF7\u6211\u4EEC"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: FOLLOW US
+      TermType: 0
+      Description: 
+      Languages:
+      - FOLLOW US
+      - "\u95DC\u6CE8\u6211\u5011"
+      - "\u5173\u6CE8\u6211\u4EEC"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: REMOVE ADS
+      TermType: 0
+      Description: 
+      Languages:
+      - REMOVE ADS
+      - "\u79FB\u9664\u5EE3\u544A"
+      - "\u79FB\u9664\u5E7F\u544A"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: 'REWARD IN ::'
+      TermType: 0
+      Description: 
+      Languages:
+      - REWARD IN {[hour]}:{[min]}:{[sec]}
+      - "\u4E0B\u6B21\u734E\u52F5       {[hour]}:{[min]}:{[sec]}"
+      - "\u4E0B\u6B21\u5956\u52B1       {[hour]}:{[min]}:{[sec]}"
       Flags: 000000
       Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
     mLanguages:
-    - Name: Chinese
-      Code: zh-CN
-      Flags: 0
     - Name: English
       Code: en
       Flags: 0
     - Name: Chinese (Hong Kong)
       Code: zh-HK
       Flags: 0
-    IgnoreDeviceLanguage: 1
+    - Name: Chinese
+      Code: zh-CN
+      Flags: 0
+    IgnoreDeviceLanguage: 0
     _AllowUnloadingLanguages: 0
     Google_WebServiceURL: 
     Google_SpreadsheetKey: 
@@ -95,7 +178,9 @@ MonoBehaviour:
     GoogleInEditorCheckFrequency: 2
     GoogleUpdateSynchronization: 1
     GoogleUpdateDelay: 0
-    Assets: []
+    Assets:
+    - {fileID: 12800000, guid: 313745fe671d5464aa064ae7519e7f24, type: 3}
+    - {fileID: 12800000, guid: 03cb9ed8faf8e9442a89f062c0505703, type: 3}
     Spreadsheet_LocalFileName: 
     Spreadsheet_LocalCSVSeparator: ','
     Spreadsheet_LocalCSVEncoding: utf-8

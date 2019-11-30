@@ -4,7 +4,6 @@ using UnityEngine.UI;
 using System.Collections;
 using System;
 using System.Collections.Generic;
-
 #if EASY_MOBILE
 using EasyMobile;
 #endif
@@ -28,6 +27,8 @@ namespace _DroppyTower
         public GameObject restartBtn;
         public GameObject menuButtons;
         public GameObject dailyRewardBtn;
+        public GameObject dailyRewardBtnTextObj;
+        public GameObject dailyRewardBtnTimeTextObj;
         public Text dailyRewardBtnText;
         public GameObject rewardUI;
         public GameObject settingsUI;
@@ -95,13 +96,30 @@ namespace _DroppyTower
             {
                 if (DailyRewardController.Instance.CanRewardNow())
                 {
-                    dailyRewardBtnText.text = "GRAB YOUR REWARD!";
+                    if(dailyRewardBtnTimeTextObj.activeSelf)
+                    {
+                        dailyRewardBtnTimeTextObj.SetActive(false);
+                        dailyRewardBtnTextObj.SetActive(true);
+                    }
+                    //dailyRewardBtnText.text = I2.Loc.LocalizationManager.GetTranslation("GRAB YOUR REWARD!");
                     dailyRewardAnimator.SetTrigger("activate");
                 }
                 else
                 {
                     TimeSpan timeToReward = DailyRewardController.Instance.TimeUntilReward;
-                    dailyRewardBtnText.text = string.Format("REWARD IN {0:00}:{1:00}:{2:00}", timeToReward.Hours, timeToReward.Minutes, timeToReward.Seconds);
+                    if(!dailyRewardBtnTimeTextObj.activeSelf)
+                    {
+                        dailyRewardBtnTimeTextObj.SetActive(true);
+                        dailyRewardBtnTextObj.SetActive(false);
+                    }
+                    //dailyRewardBtnText.text = I2.Loc.LocalizationManager.GetTranslation("REWARD IN ::");
+                    var localManager = dailyRewardBtnTimeTextObj.GetComponent<I2.Loc.LocalizationParamsManager>();
+
+                    localManager.SetParameterValue("hour", timeToReward.Hours.ToString());
+                    localManager.SetParameterValue("min", timeToReward.Minutes.ToString());
+                    localManager.SetParameterValue("sec", timeToReward.Seconds.ToString());
+                    //, timeToReward.Hours, timeToReward.Minutes, timeToReward.Seconds
+                    //Debug.Log(timeToReward.Hours.ToString()+ timeToReward.Minutes.ToString()+ timeToReward.Seconds.ToString());
                     dailyRewardAnimator.SetTrigger("deactivate");
                 }
             }
