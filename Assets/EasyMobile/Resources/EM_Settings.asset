@@ -17,9 +17,9 @@ MonoBehaviour:
     mAdCheckingInterval: 10
     mAdLoadingInterval: 20
     mIosDefaultAdNetworks:
-      bannerAdNetwork: 0
-      interstitialAdNetwork: 0
-      rewardedAdNetwork: 0
+      bannerAdNetwork: 2
+      interstitialAdNetwork: 2
+      rewardedAdNetwork: 2
     mAndroidDefaultAdNetworks:
       bannerAdNetwork: 2
       interstitialAdNetwork: 2
@@ -324,4 +324,4 @@ MonoBehaviour:
   mIsNotificationModuleEnable: 0
   mIsSharingModuleEnable: 0
   mActiveModuleIndex: 0
-  mIsSelectingModule: 1
+  mIsSelectingModule: 0

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: BEST
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u6700\u9AD8\u7EAA\u5F55"
+      - BEST
+      - "\u6700\u9AD8\u7D00\u9304"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: NEW BEST
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u65B0\u7EAA\u5F55"
+      - NEW BEST
+      - "\u65B0\u7D00\u9304"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: SELECT CHARACTER
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u9009\u62E9\u89D2\u8272"
+      - SELECT CHARACTER
+      - "\u9078\u64C7\u89D2\u8272"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: NEW BEST
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u65B0\u7EAA\u5F55"
+      - NEW BEST
+      - "\u65B0\u7D00\u9304"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: WATCH FOR COINS
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u89C2\u770B\u9886\u53D6\u91D1\u5E01"
+      - WATCH FOR COINS
+      - "\u89C0\u770B\u9818\u53D6\u91D1\u5E63"
+      Flags: 000000
+      Languages_Touch: []
+    - Term: GRAB YOUR REWARD!
+      TermType: 0
+      Description: 
+      Languages:
+      - "\u83B7\u53D6\u60A8\u7684\u5956\u52B1"
+      - GRAB YOUR REWARD!
+      - "\u7372\u53D6\u60A8\u7684\u734E\u52F5"
+      Flags: 000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: Chinese
+      Code: zh-CN
+      Flags: 0
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Chinese (Hong Kong)
+      Code: zh-HK
+      Flags: 0
+    IgnoreDeviceLanguage: 1
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: 
+    Google_SpreadsheetKey: 
+    Google_SpreadsheetName: 
+    Google_LastUpdatedVersion: 
+    Google_Password: change_this
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
