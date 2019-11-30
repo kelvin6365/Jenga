@@ -159,7 +159,7 @@ MonoBehaviour:
     mTerm_AppName: 
     mLanguages:
     - Name: English
-      Code: en
+      Code: en-US
       Flags: 0
     - Name: Chinese (Hong Kong)
       Code: zh-HK
