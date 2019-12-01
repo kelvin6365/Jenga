@@ -11,6 +11,8 @@ TagManager:
   - UIManager
   - Plane
   - Camera
+  - Car
+  - destroy_wall
   layers:
   - Default
   - TransparentFX

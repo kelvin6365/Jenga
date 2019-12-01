@@ -229,6 +229,7 @@ namespace _DroppyTower
 
                 if (isCollide && !isNewCube && col.gameObject.tag != "Player" && !isFirstCube)
                 {
+                    Debug.Log(col.gameObject.tag);
                     GameManager.Instance.playerController.perfectCount = 0;
                     Destroy(gameObject);
                 }
@@ -238,6 +239,7 @@ namespace _DroppyTower
             //Destroy the building if it collided with something else
             if (col.gameObject.tag != "Player" && !isFirstCube && fail)
             {
+                //Debug.Log(col.gameObject.tag);
                 GameManager.Instance.playerController.perfectCount = 0;
                 Destroy(gameObject);
             }
