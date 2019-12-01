@@ -42,7 +42,7 @@ namespace _DroppyTower
         {
             // Initialize score
             Score = 0;
-
+            //PlayerPrefs.SetInt(HIGHSCORE,0);
             // Initialize highscore
             HighScore = PlayerPrefs.GetInt(HIGHSCORE, 0);
             HasNewHighScore = false;
