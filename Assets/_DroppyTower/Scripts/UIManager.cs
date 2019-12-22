@@ -175,7 +175,7 @@ namespace _DroppyTower
 
             // Enable or disable premium stuff
             bool enablePremium = IsPremiumFeaturesEnabled();
-            leaderboardBtn.SetActive(enablePremium);
+            //leaderboardBtn.SetActive(enablePremium);
             shareBtn.SetActive(enablePremium);
             iapPurchaseBtn.SetActive(enablePremium);
             removeAdsBtn.SetActive(enablePremium);

@@ -55,7 +55,7 @@
   </files>
   <settings>
     <setting name="androidAbis" value="armeabi-v7a,x86" />
-    <setting name="bundleId" value="com.MStudio.TowerJenga" />
+    <setting name="bundleId" value="com.TRStudio.TowerJenga" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradleTemplateEnabled" value="False" />
