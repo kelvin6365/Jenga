@@ -16431,7 +16431,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.size
-      value: 5
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[1]
@@ -16456,27 +16456,27 @@ PrefabInstance:
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[5]
       value: 
-      objectReference: {fileID: 1607067581571716, guid: 67acf7d09cd932746880f9a673713354,
+      objectReference: {fileID: 1706634799050398, guid: e6d810704df03d845b7ddcac575622e3,
         type: 3}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[6]
       value: 
-      objectReference: {fileID: 1697834270641680, guid: 7fadeeaab30a5654ea52e501ef9af25f,
+      objectReference: {fileID: 1063430988591138, guid: cba2e44245083054ea84eab3834c2964,
         type: 3}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[7]
       value: 
-      objectReference: {fileID: 1342771086236776, guid: ef87b96c6f8c0414f84bb6ce4936c832,
+      objectReference: {fileID: 1555318558197720, guid: 2c16fdb974f767d4783944e965b5ae4f,
         type: 3}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[8]
       value: 
-      objectReference: {fileID: 1995504768408880, guid: 2625803cafaa3914cbd314e5436b856b,
+      objectReference: {fileID: 1496139240864000, guid: 53c90e5b28d097c4e9d89d98e6a5afd3,
         type: 3}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[9]
       value: 
-      objectReference: {fileID: 1513156200109926, guid: aceaa3fdcdd34cf4a85f5b9fbd88a346,
+      objectReference: {fileID: 1285796655456408, guid: 56b0b4373710e9742b63f45373ed693a,
         type: 3}
     - target: {fileID: 11497630, guid: 723f4b5589fb4aa4e9935de29886c2f8, type: 3}
       propertyPath: characters.Array.data[10]

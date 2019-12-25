@@ -124,7 +124,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSequenceNumber: 0
   characterName: Nezuko
-  price: 100
+  price: 150
   isFree: 0
 --- !u!114 &7086620911279406559
 MonoBehaviour:
