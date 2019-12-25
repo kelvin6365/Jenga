@@ -176,10 +176,10 @@ namespace _DroppyTower
             // Enable or disable premium stuff
             bool enablePremium = IsPremiumFeaturesEnabled();
             //leaderboardBtn.SetActive(enablePremium);
-            shareBtn.SetActive(enablePremium);
-            iapPurchaseBtn.SetActive(enablePremium);
-            removeAdsBtn.SetActive(enablePremium);
-            restorePurchaseBtn.SetActive(enablePremium);
+            //shareBtn.SetActive(enablePremium);
+            //iapPurchaseBtn.SetActive(enablePremium);
+            //removeAdsBtn.SetActive(enablePremium);
+            //restorePurchaseBtn.SetActive(enablePremium);
 
             // Hidden by default
             storeUI.SetActive(false);

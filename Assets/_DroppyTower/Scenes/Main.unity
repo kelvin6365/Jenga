@@ -1387,7 +1387,7 @@ MonoBehaviour:
   mGUI_ShowReferences: 0
   mGUI_ShowTems: 1
   mGUI_ShowCallback: 0
-  mLocalizeTarget: {fileID: 1001134620}
+  mLocalizeTarget: {fileID: 0}
   mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!114 &214581915
 MonoBehaviour:
@@ -7240,7 +7240,7 @@ MonoBehaviour:
   mGUI_ShowReferences: 0
   mGUI_ShowTems: 1
   mGUI_ShowCallback: 0
-  mLocalizeTarget: {fileID: 2085874118}
+  mLocalizeTarget: {fileID: 0}
   mLocalizeTargetName: I2.Loc.LocalizeTarget_UnityUI_Text
 --- !u!1 &375847428
 GameObject:
@@ -7854,6 +7854,10 @@ PrefabInstance:
       propertyPath: gamesPerInterstitial
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11416178, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
+      propertyPath: rewardedCoins
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 11468440, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: disable
       value: 1
@@ -7864,43 +7868,59 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[0].productName
-      value: Coins_100
+      value: coins_50
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[0].coinValue
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[1].coinValue
-      value: 300
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[1].productName
-      value: Coins_300
+      value: coins_100
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[0].priceString
-      value: $7.99
+      value: $8
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[1].priceString
-      value: $20.99
+      value: $15
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[2].productName
-      value: Coins_900
+      value: coins_180
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[2].priceString
-      value: $50.99
+      value: $23
       objectReference: {fileID: 0}
     - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
       propertyPath: coinPacks.Array.data[2].coinValue
-      value: 900
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
+      propertyPath: coinPacks.Array.data[3].productName
+      value: coins_250
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
+      propertyPath: coinPacks.Array.data[3].priceString
+      value: $28
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
+      propertyPath: coinPacks.Array.data[3].coinValue
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 11480196, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
+      propertyPath: removeAds
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44eeec2a2c5eb480bbe9050961e27d63, type: 3}
@@ -7942,6 +7962,14 @@ PrefabInstance:
     - target: {fileID: 412346, guid: 4f5f464b9799f4770b13d9a724263f7d, type: 3}
       propertyPath: m_RootOrder
       value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424016, guid: 4f5f464b9799f4770b13d9a724263f7d, type: 3}
+      propertyPath: minRewardValue
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 11424016, guid: 4f5f464b9799f4770b13d9a724263f7d, type: 3}
+      propertyPath: maxRewardValue
+      value: 30
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4f5f464b9799f4770b13d9a724263f7d, type: 3}
@@ -8659,7 +8687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11496204, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
       propertyPath: APP_NAME
-      value: Tower Jenga
+      value: Block Building
       objectReference: {fileID: 0}
     - target: {fileID: 11496204, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
       propertyPath: BUNDLE_ID
@@ -8668,6 +8696,14 @@ PrefabInstance:
     - target: {fileID: 11496204, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
       propertyPath: SUPPORT_EMAIL
       value: kelvin6365@gmail.com
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496204, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
+      propertyPath: APPSTORE_ID
+      value: 1492862764
+      objectReference: {fileID: 0}
+    - target: {fileID: 11496204, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
+      propertyPath: FACEBOOK_ID
+      value: TwoRockStudio
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 87d32f82f7fb6405d929088046ec6ecb, type: 3}
@@ -9878,19 +9914,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 996429142}
   m_CullTransparentMesh: 0
---- !u!114 &1001134620
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mTarget: {fileID: 150130234}
 --- !u!1 &1023602957
 GameObject:
   m_ObjectHideFlags: 0
@@ -11528,7 +11551,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1297987370
 RectTransform:
   m_ObjectHideFlags: 0
@@ -17724,7 +17747,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Tower \nJenga"
+  m_Text: " Block \nBuilding"
 --- !u!222 &1439637488
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24921,7 +24944,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1916551647
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24992,7 +25015,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1921197965
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25668,19 +25691,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2085701100}
   m_CullTransparentMesh: 0
---- !u!114 &2085874118
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 332e36893e7cf4a49b3c1f72f76cd5e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mTarget: {fileID: 372926991}
 --- !u!1 &2105544053 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1876830705439362, guid: 94a66283a37f6ee4e805cd912332f32d,

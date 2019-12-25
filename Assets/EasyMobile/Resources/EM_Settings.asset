@@ -49,7 +49,7 @@ MonoBehaviour:
         mExtraOptions:
           keys: []
           values: []
-      mEnableTestMode: 1
+      mEnableTestMode: 0
       mAppId:
         mIosId: ca-app-pub-6712338163319742~5719765155
         mAndroidId: ca-app-pub-6712338163319742~8960463635
@@ -323,5 +323,5 @@ MonoBehaviour:
   mIsGameServiceModuleEnable: 0
   mIsNotificationModuleEnable: 0
   mIsSharingModuleEnable: 0
-  mActiveModuleIndex: 0
-  mIsSelectingModule: 0
+  mActiveModuleIndex: 8
+  mIsSelectingModule: 1
