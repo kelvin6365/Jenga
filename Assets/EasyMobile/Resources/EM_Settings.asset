@@ -211,6 +211,9 @@ MonoBehaviour:
     mAndroidMaxLoginRequests: 0
     mGpgsDebugLogEnabled: 0
     mGpgsPopupGravity: 0
+    mGpgsShouldRequestServerAuthCode: 0
+    mGpgsForceRefreshServerAuthCode: 0
+    mGpgsOauthScopes: []
     mLeaderboards: []
     mAchievements: []
     mAndroidXmlResources: 
@@ -323,5 +326,5 @@ MonoBehaviour:
   mIsGameServiceModuleEnable: 0
   mIsNotificationModuleEnable: 0
   mIsSharingModuleEnable: 0
-  mActiveModuleIndex: 8
+  mActiveModuleIndex: 0
   mIsSelectingModule: 1
